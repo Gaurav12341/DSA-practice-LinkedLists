@@ -29,6 +29,7 @@ struct node* insertAtEnd(struct node *head, int data)
     struct node *newNode = (struct node*)malloc(sizeof(struct node));
     newNode->data = data;
     newNode->next = NULL;
+    
     if(head == NULL)    return newNode;
     else
     {
